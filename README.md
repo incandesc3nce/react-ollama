@@ -1,5 +1,7 @@
 # react-ollama
 
+[![npm version](https://badge.fury.io/js/react-ollama.svg)](https://badge.fury.io/js/react-ollama)
+
 Integrate [Ollama](https://github.com/ollama/ollama) into your React application.
 
 react-ollama is a simple wrapper library around [ollama-js](https://github.com/ollama/ollama-js), providing React hooks to interact with Ollama in React applications in a more convenient way.
@@ -134,12 +136,13 @@ export const ServerReactOllama = async () => {
 react-ollama comes in with default Ollama client, but you are free to provide your own clients:
 
 ```tsx
-import { Ollama } from "react-ollama";
+import { Ollama } from 'react-ollama';
 
 export const ollamaInstance = new Ollama({
   host: 'http://localhost:8000'
 });
 ```
+
 ```tsx
 import { ollamaInstance } from './ollamaInstance';
 import { useGenerate } from 'react-ollama';
@@ -173,4 +176,4 @@ Any contributions are welcome! Feel free to open an issue or a pull request here
 ## Credits
 
 - [Ollama](https://ollama.com/) for creating a great tool to run LLMs locally.
-- [ollama-js](https://github.com/ollama/ollama-js) for creating a JS library to interact with Ollama and making this possible.
+- [ollama-js](https://github.com/ollama/ollama-js) for JS library to interact with Ollama and making this possible.
