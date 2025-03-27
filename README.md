@@ -167,6 +167,9 @@ export CustomOllamaComponent = () => {
 
 Any contributions are welcome! Feel free to open an issue or a pull request here:
 
+- [Pull request](https://github.com/incandesc3nce/react-ollama/pulls)
+- [Issue](https://github.com/incandesc3nce/react-ollama/issues)
+
 ## Credits
 
 - [Ollama](https://ollama.com/) for creating a great tool to run LLMs locally.
