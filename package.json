@@ -12,7 +12,11 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "lint": "eslint --report-unused-disable-directives --max-warnings 0 .",
+    "lint-fix": "eslint --fix .",
+    "format": "prettier --config .prettierrc --check --ignore-unknown .",
+    "format-fix": "prettier --config .prettierrc --write --ignore-unknown ."
   },
   "repository": {
     "type": "git",

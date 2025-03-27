@@ -8,5 +8,5 @@ export default defineConfig({
   dts: true,
   format: ['esm', 'cjs'],
   target: 'esnext',
-  external: ['react', 'react-dom', 'ollama'],
+  external: ['react', 'react-dom', 'ollama']
 });

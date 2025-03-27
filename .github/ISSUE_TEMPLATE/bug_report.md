@@ -1,10 +1,9 @@
 ---
 name: Bug report
 about: Create a bug report to help us improve
-title: "[BUG]"
+title: '[BUG]'
 labels: ''
 assignees: ''
-
 ---
 
 **Describe the bug**
@@ -12,6 +11,7 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Do the '....'
 3. See error
@@ -23,8 +23,9 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Environment:**
- - Version of the package [e.g. 22]
- - Version of React and ollama
+
+- Version of the package [e.g. 22]
+- Version of React and ollama
 
 **Additional context**
 Add any other context about the problem here.

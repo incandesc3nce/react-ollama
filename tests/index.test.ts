@@ -1,11 +1,6 @@
 import { describe, it, expect, vi } from 'vitest';
 import { renderHook, act, waitFor } from '@testing-library/react';
-import {
-  useChat,
-  useGenerate,
-  reactOllama,
-  isAbortable
-} from '../src';
+import { useChat, useGenerate, reactOllama, isAbortable } from '../src';
 
 vi.mock(import('ollama/browser'), async (importOriginal) => {
   const ollamaModule = await importOriginal();

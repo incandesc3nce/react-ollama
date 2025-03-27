@@ -7,7 +7,7 @@ export default defineConfig({
     passWithNoTests: true,
     coverage: {
       provider: 'v8',
-      include: ['{src,tests}/**/*'],
+      include: ['{src,tests}/**/*']
     }
   }
 });
