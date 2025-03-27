@@ -1,7 +1,5 @@
 # react-ollama
 
-[![npm version](https://badge.fury.io/js/react-ollama.svg)](https://badge.fury.io/js/react-ollama)
-
 Integrate [Ollama](https://github.com/ollama/ollama) into your React application.
 
 react-ollama is a simple wrapper library around [ollama-js](https://github.com/ollama/ollama-js), providing React hooks to interact with Ollama in React applications in a more convenient way.
