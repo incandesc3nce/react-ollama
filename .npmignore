@@ -1,0 +1,12 @@
+node_modules
+src
+tsup.config.ts
+eslint.config.mjs
+.prettierrc
+.gitignore
+tsconfig.json
+tests
+vitest.config.mts
+examples
+docs
+coverage
