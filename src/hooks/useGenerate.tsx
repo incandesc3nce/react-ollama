@@ -12,6 +12,7 @@ import { isAbortable } from '../utils';
  * - `responseRef` - a reference to the response object. Can be used to read response metadata and to abort the request.
  * - `resetAnswer` - a function that resets the answer state.
  * - `resetResponse` - a function that resets the response reference.
+ * - `abort` - a function that aborts the current streamable request.
  *
  * @param model
  * @param ollamaInstance

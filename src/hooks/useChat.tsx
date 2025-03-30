@@ -12,6 +12,7 @@ import { isAbortable } from '../utils';
  * - `responseRef` - a reference to the response object. Can be used to read response metadata and to abort the request.
  * - `resetAnswer` - a function that resets the answer state.
  * - `resetResponse` - a function that resets the response reference.
+ * - `abort` - a function that aborts the current streamable request.
  *
  * @param model The name of the model to chat with.
  * @param ollamaInstance The Ollama instance to use for chatting. Defaults to the global `ollama` instance.
