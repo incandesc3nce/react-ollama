@@ -64,13 +64,14 @@ describe('useChat', () => {
 
   it('returns an object with the correct properties', () => {
     const { result } = renderHook(() => useChat('model'));
-    const { answer, sendMessage, responseRef, resetAnswer, resetResponse } = result.current;
+    const { answer, sendMessage, responseRef, resetAnswer, resetResponse, abort } = result.current;
 
     expect(answer).toBeDefined();
     expect(sendMessage).toBeDefined();
     expect(responseRef).toBeDefined();
     expect(resetAnswer).toBeDefined();
     expect(resetResponse).toBeDefined();
+    expect(abort).toBeDefined();
   });
 
   it('sends a message without stream and sets answer', async () => {
@@ -153,13 +154,14 @@ describe('useGenerate', () => {
 
   it('returns an object with the correct properties', () => {
     const { result } = renderHook(() => useGenerate('model'));
-    const { answer, sendMessage, responseRef, resetAnswer, resetResponse } = result.current;
+    const { answer, sendMessage, responseRef, resetAnswer, resetResponse, abort } = result.current;
 
     expect(answer).toBeDefined();
     expect(sendMessage).toBeDefined();
     expect(responseRef).toBeDefined();
     expect(resetAnswer).toBeDefined();
     expect(resetResponse).toBeDefined();
+    expect(abort).toBeDefined();
   });
 
   it('sends a message without stream and sets answer', async () => {

@@ -1,6 +1,7 @@
 import ollama, { ChatRequest } from 'ollama/browser';
 import { useRef, useState } from 'react';
 import { OllamaChatResponse } from '@src/@types';
+import { isAbortable } from '../utils';
 
 /**
  * A hook that allows to generate the next message in a chat with a provided model.
@@ -95,5 +96,14 @@ export const useChat = (model: string, ollamaInstance = ollama) => {
     responseRef.current = null;
   };
 
-  return { answer, sendMessage, responseRef, resetAnswer, resetResponse };
+  /**
+   * Aborts current streamable request.
+   */
+  const abort = (): void => {
+    if (isAbortable(responseRef.current)) {
+      responseRef.current.abort();
+    }
+  };
+
+  return { answer, sendMessage, responseRef, resetAnswer, resetResponse, abort };
 };
