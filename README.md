@@ -4,6 +4,10 @@ Integrate [Ollama](https://github.com/ollama/ollama) into your React application
 
 react-ollama is a simple wrapper library around [ollama-js](https://github.com/ollama/ollama-js), providing React hooks to interact with Ollama in React applications in a more convenient way.
 
+| Statements | Branches | Functions | Lines |
+|-----------|----------|-----------|-------|
+| ![Statements](https://img.shields.io/badge/statements-100%25-brightgreen.svg?style=flat) | ![Branches](https://img.shields.io/badge/branches-100%25-brightgreen.svg?style=flat) | ![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat) | ![Lines](https://img.shields.io/badge/lines-100%25-brightgreen.svg?style=flat) |
+
 ## Install
 
 ```

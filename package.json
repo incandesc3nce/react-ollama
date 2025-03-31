@@ -16,7 +16,8 @@
     "lint": "eslint --report-unused-disable-directives --max-warnings 0 .",
     "lint-fix": "eslint --fix .",
     "format": "prettier --config .prettierrc --check --ignore-unknown .",
-    "format-fix": "prettier --config .prettierrc --write --ignore-unknown ."
+    "format-fix": "prettier --config .prettierrc --write --ignore-unknown .",
+    "coverage-badges": "istanbul-badges-readme"
   },
   "repository": {
     "type": "git",
@@ -52,6 +53,7 @@
     "eslint": "^9.23.0",
     "eslint-plugin-react": "^7.37.4",
     "globals": "^16.0.0",
+    "istanbul-badges-readme": "^1.9.0",
     "jsdom": "^26.0.0",
     "prettier": "^3.5.3",
     "react": "^19.0.0",
