@@ -149,7 +149,7 @@ export const ollamaInstance = new Ollama({
 import { ollamaInstance } from './ollamaInstance';
 import { useGenerate } from 'react-ollama';
 
-export CustomOllamaComponent = () => {
+export const CustomOllamaComponent = () => {
   const { answer, sendMessage } = useGenerate('llama3.2', ollamaInstance);
 
   const handleClick = () => {
